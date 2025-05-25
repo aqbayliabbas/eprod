@@ -192,7 +192,7 @@ export default function HomePage() {
           <div className="space-y-4">
             <Button
               size="lg"
-              className="w-full bg-green-600 hover:bg-green-700"
+              className="w-full bg-purple-600 hover:bg-purple-800"
               onClick={() => {
                 setAuthMode("signup")
                 setAuthModalOpen(true)
