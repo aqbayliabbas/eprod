@@ -186,7 +186,7 @@ export default function HomePage() {
           <div className="mb-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Eprod</h1>
             <p className="text-xl text-gray-600">
-              Créez des visuels produit époustouflants avec l'intelligence artificielle
+              Créez des visuels produit ecommerce époustouflants avec l'intelligence artificielle
             </p>
           </div>
           <div className="space-y-4">
