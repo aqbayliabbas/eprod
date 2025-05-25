@@ -184,7 +184,9 @@ export default function HomePage() {
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center max-w-md mx-auto p-8">
           <div className="mb-8">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Eprod</h1>
+            <div className="flex items-center justify-center pb-8">
+              <img src="/logo.png" alt="Eprod logo" width={300} height={300} />
+            </div>
             <p className="text-xl text-gray-600">
               Créez des visuels produit ecommerce époustouflants avec l'intelligence artificielle
             </p>
