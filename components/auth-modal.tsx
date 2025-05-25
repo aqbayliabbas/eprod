@@ -128,14 +128,14 @@ export function AuthModal({ isOpen, onClose, mode, onSwitchMode }: AuthModalProp
           {mode === "signin" ? (
             <p className="text-gray-600">
               Pas encore de compte ?{" "}
-              <button type="button" onClick={onSwitchMode} className="text-green-600 hover:underline">
+              <button type="button" onClick={onSwitchMode} className="text-purple-600 hover:underline">
                 Créer un compte
               </button>
             </p>
           ) : (
             <p className="text-gray-600">
               Déjà un compte ?{" "}
-              <button type="button" onClick={onSwitchMode} className="text-green-600 hover:underline">
+              <button type="button" onClick={onSwitchMode} className="text-purple-600 hover:underline">
                 Se connecter
               </button>
             </p>
