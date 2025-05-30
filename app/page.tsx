@@ -1,3 +1,4 @@
+
 "use client"
 
 import type React from "react"
@@ -432,7 +433,7 @@ export default function HomePage() {
                   <ImageIcon className="h-16 w-16 text-gray-400 mx-auto mb-4" />
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Aucun projet pour le moment</h3>
                   <p className="text-gray-600 mb-4">Commencez par créer votre premier projet avec le générateur IA</p>
-                  <Button onClick={() => document.querySelector('[value="generator"]')?.click()}>
+                  <Button onClick={() => (document.querySelector('[value="generator"]') as HTMLElement)?.click()}>
                     <Plus className="mr-2 h-4 w-4" />
                     Créer un projet
                   </Button>
